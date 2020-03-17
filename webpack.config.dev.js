@@ -29,6 +29,10 @@ export default {
         ]
     },
     resolve: {
-        extensions: ["", '.js']
+        extensions: ['', '.js']
+    },
+    node: {
+        net: 'empty',
+        dns: 'empty'
     }
 }
