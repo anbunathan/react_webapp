@@ -16,7 +16,7 @@ router.post('/', (req, res) => {
                 const token = jwt.sign({
                     id: user.get('id'),
                     username: user.get('username')
-                }, config.jwtsecret);
+                }, config.jwtSecret);
                 res.json({token});
             }else{
                 res.status(401).json({errors: {form: 'Invalid Credentials'} });
