@@ -23,7 +23,7 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.4.1",
     "body-parser": "^1.15.2",
